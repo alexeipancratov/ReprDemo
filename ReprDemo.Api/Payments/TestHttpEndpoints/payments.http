@@ -1,0 +1,9 @@
+POST http://localhost:5213/payments
+Content-Type: application/json
+
+{
+  "amount": 50.75,
+  "from": "123456789",
+  "to": "987654321",
+  "debitDate": "2023-01-01"
+}
